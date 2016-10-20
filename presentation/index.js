@@ -87,10 +87,36 @@ export default class Presentation extends React.Component {
             <Heading size={4} textColor="white" textAlign="left" notes="Devoting even 1 hour a day for the first month (20 hours, or 1% of the year) will have a huge impact.">
               Example high-leverage activities
             </Heading>
-            <Text textColor="white" textAlign="left" margin="20px 0px">
-              Mentoring.<br/><br/>
-              Devoting even 1 hour a day for the first month (20 hours, or 1% of the year) will have a huge impact.
-            </Text>
+            <List>
+              <Appear><ListItem>Mentoring</ListItem></Appear>
+              <Appear><ListItem>Onboarding</ListItem></Appear>
+              <Appear><ListItem>Customer Interviews</ListItem></Appear>
+            </List>
+          </Slide>
+          <Slide>
+            <Heading size={4} textColor="white">
+              High-leverage habits
+            </Heading>
+            <List>
+              <Appear><ListItem>Prioritizing</ListItem></Appear>
+              <Appear><ListItem>Iterating</ListItem></Appear>
+              <Appear><ListItem>Measuring</ListItem></Appear>
+              <Appear><ListItem>Product Validation</ListItem></Appear>
+              <Appear><ListItem>Project Estimation</ListItem></Appear>
+            </List>
+          </Slide>
+          <Slide>
+            <Heading size={4} textColor="white">
+              Long-Term Value
+            </Heading>
+            <List>
+              <Appear><ListItem>Balance quality with pragmatism</ListItem></Appear>
+              <Appear><ListItem>Minimize operational burden</ListItem></Appear>
+              <Appear><ListItem>Invest in team growth</ListItem></Appear>
+            </List>
+          </Slide>
+          <Slide notes="Eisenhower Matrix.<br>An abundance of emergencies generally indicates that you're ignoring non-urgent important tasks.">
+            <Image src={"https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjoshmedeski.com%2Fwp-content%2Fuploads%2F2014%2F10%2FTheEisenhowerMatrix.png&f=1"} width="600px" margin="0px auto 40px" />
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Text textColor="white">
