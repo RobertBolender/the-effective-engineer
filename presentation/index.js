@@ -156,11 +156,12 @@ You can write inline images, [Markdown Links](http://commonmark.org), paragraph 
             </Heading>
             <Interactive/>
           </Slide>
-          <Slide transition={["spin", "slide"]} bgColor="tertiary">
-            <Heading size={1} caps fit lineHeight={1.5} textColor="primary">
-              Made with love in Seattle by
-            </Heading>
-            <Link href="http://www.formidablelabs.com"><Image width="100%" src={images.logo}/></Link>
+          <Slide transition={["spin", "slide"]} bgColor="primary">
+            <Text textColor="white">
+              Time is our most finite asset, and leverage<br/>
+              &mdash;the value we produce per unit of time&mdash;<br/>
+              allows us to direct our time toward what matters most.
+            </Text>
           </Slide>
         </Deck>
       </Spectacle>
