@@ -83,6 +83,15 @@ export default class Presentation extends React.Component {
               <b>Leverage</b> = Impact produced / Time Invested
             </Text>
           </Slide>
+          <Slide>
+            <Heading size={4} textColor="white" textAlign="left">
+              Example high-leverage activity
+            </Heading>
+            <Text textColor="white" textAlign="left" margin="20px 0px">
+              Mentoring.<br/><br/>
+              Devoting even 1 hour a day for the first month (20 hours, or 1% of the year) will have a huge impact.
+            </Text>
+          </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Text textColor="white">
               Time is our most finite asset, and leverage<br/>
