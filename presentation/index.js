@@ -47,7 +47,8 @@ preloader(images);
 
 const theme = createTheme({
   primary: "#002244",
-  secondary: "#69BE28"
+  secondary: "#FFFFFF",
+  tertiary: "#69BE28"
 });
 
 export default class Presentation extends React.Component {
@@ -56,7 +57,7 @@ export default class Presentation extends React.Component {
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
           <Slide transition={["zoom"]} bgColor="primary">
-            <Heading size={2} caps lineHeight={1} textColor="secondary">
+            <Heading size={2} caps lineHeight={1} textColor="tertiary">
               The Effective Engineer
             </Heading>
             <Heading size={4} textColor="white">
@@ -64,11 +65,11 @@ export default class Presentation extends React.Component {
             </Heading>
             <Text textSize="1.5em" margin="20px 0px" bold textColor="white">Presentation by Bob Bolender</Text>
             <Link href="https://github.com/FormidableLabs/spectacle">
-              <Text bold caps textColor="secondary">Built with Spectacle</Text>
+              <Text bold caps textColor="tertiary">Built with Spectacle</Text>
             </Link>
           </Slide>
           <Slide notes="Being efficient at the wrong thing is wasteful.<br/>You don't need thousands of simultaneous requests.">
-            <Heading size={1} caps textAlign="left">
+            <Heading size={2} caps textAlign="left">
               Effective Engineers...
             </Heading>
             <List>
