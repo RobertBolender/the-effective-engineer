@@ -69,7 +69,7 @@ export default class Presentation extends React.Component {
             </Link>
           </Slide>
           <Slide notes="Being efficient at the wrong thing is wasteful.<br/>You don't need thousands of simultaneous requests.<br/>You don't need to A/B things that are not statistically significant.">
-            <Heading size={2} caps textAlign="left">
+            <Heading size={2} caps textAlign="left" textColor="tertiary">
               Effective Engineers...
             </Heading>
             <List>
@@ -93,8 +93,14 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Customer Interviews</ListItem></Appear>
             </List>
           </Slide>
-          <Slide>
+          <Slide notes="Eisenhower Matrix.<br>An abundance of emergencies generally indicates that you're ignoring non-urgent important tasks.">
             <Heading size={4} textColor="white">
+              Priorities
+            </Heading>
+            <Image src={"https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjoshmedeski.com%2Fwp-content%2Fuploads%2F2014%2F10%2FTheEisenhowerMatrix.png&f=1"} width="600px" margin="0px auto 40px" />
+          </Slide>
+          <Slide>
+            <Heading size={4} textColor="white" textAlign="left">
               High-leverage habits
             </Heading>
             <List>
@@ -106,7 +112,7 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
           <Slide>
-            <Heading size={4} textColor="white">
+            <Heading size={4} textColor="white" textAlign="left">
               Long-Term Value
             </Heading>
             <List>
@@ -114,9 +120,6 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Minimize operational burden</ListItem></Appear>
               <Appear><ListItem>Invest in team growth</ListItem></Appear>
             </List>
-          </Slide>
-          <Slide notes="Eisenhower Matrix.<br>An abundance of emergencies generally indicates that you're ignoring non-urgent important tasks.">
-            <Image src={"https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjoshmedeski.com%2Fwp-content%2Fuploads%2F2014%2F10%2FTheEisenhowerMatrix.png&f=1"} width="600px" margin="0px auto 40px" />
           </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Text textColor="white">
