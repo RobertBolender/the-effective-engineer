@@ -77,6 +77,11 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Focus on value and impact (deliver the right results)</ListItem></Appear>
             </List>
           </Slide>
+          <Slide>
+            <Text textColor="white">
+              <b>Leverage</b> = Impact produced / Time Invested
+            </Text>
+          </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Text textColor="white">
               Time is our most finite asset, and leverage<br/>
