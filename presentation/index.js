@@ -67,7 +67,7 @@ export default class Presentation extends React.Component {
               <Text bold caps textColor="secondary">Built with Spectacle</Text>
             </Link>
           </Slide>
-          <Slide>
+          <Slide notes="Being efficient at the wrong thing is wasteful.<br/>You don't need thousands of simultaneous requests.">
             <Heading size={1} caps textAlign="left">
               Effective Engineers...
             </Heading>
