@@ -77,7 +77,7 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Focus on value and impact (deliver the right results)</ListItem></Appear>
             </List>
           </Slide>
-          <Slide>
+          <Slide notes="To increase leverage, either increase impact or reduce time">
             <Text textColor="white">
               <b>Leverage</b> = Impact produced / Time Invested
             </Text>
