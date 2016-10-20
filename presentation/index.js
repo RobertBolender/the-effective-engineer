@@ -67,6 +67,16 @@ export default class Presentation extends React.Component {
               <Text bold caps textColor="secondary">Built with Spectacle</Text>
             </Link>
           </Slide>
+          <Slide>
+            <Heading size={1} caps textAlign="left">
+              Effective Engineers...
+            </Heading>
+            <List>
+              <Appear><ListItem>Deliver results</ListItem></Appear>
+              <Appear><ListItem>Are efficient (deliver more results in less time)</ListItem></Appear>
+              <Appear><ListItem>Focus on value and impact (deliver the right results)</ListItem></Appear>
+            </List>
+          </Slide>
           <Slide transition={["spin", "slide"]} bgColor="primary">
             <Text textColor="white">
               Time is our most finite asset, and leverage<br/>
