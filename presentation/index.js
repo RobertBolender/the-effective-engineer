@@ -68,7 +68,7 @@ export default class Presentation extends React.Component {
               <Text bold caps textColor="tertiary">Built with Spectacle</Text>
             </Link>
           </Slide>
-          <Slide notes="Being efficient at the wrong thing is wasteful.<br/>You don't need thousands of simultaneous requests.">
+          <Slide notes="Being efficient at the wrong thing is wasteful.<br/>You don't need thousands of simultaneous requests.<br/>You don't need to A/B things that are not statistically significant.">
             <Heading size={2} caps textAlign="left">
               Effective Engineers...
             </Heading>
@@ -84,8 +84,8 @@ export default class Presentation extends React.Component {
             </Text>
           </Slide>
           <Slide>
-            <Heading size={4} textColor="white" textAlign="left">
-              Example high-leverage activity
+            <Heading size={4} textColor="white" textAlign="left" notes="Devoting even 1 hour a day for the first month (20 hours, or 1% of the year) will have a huge impact.">
+              Example high-leverage activities
             </Heading>
             <Text textColor="white" textAlign="left" margin="20px 0px">
               Mentoring.<br/><br/>
