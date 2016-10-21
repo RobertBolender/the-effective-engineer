@@ -78,7 +78,7 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Focus on value and impact (deliver the right results)</ListItem></Appear>
             </List>
           </Slide>
-          <Slide notes="To increase leverage, either increase impact or reduce time">
+          <Slide bgColor="black" notes="To increase leverage, either increase impact or reduce time">
             <Text textColor="white">
               <b>Leverage</b> = Impact produced / Time Invested
             </Text>
@@ -99,7 +99,7 @@ export default class Presentation extends React.Component {
             </Heading>
             <Image src={"https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fjoshmedeski.com%2Fwp-content%2Fuploads%2F2014%2F10%2FTheEisenhowerMatrix.png&f=1"} width="600px" margin="0px auto 40px" />
           </Slide>
-          <Slide>
+          <Slide notes="Iterating = Agile.<br/>Measure what you want to improve, not just vanity metrics.<br/>Validation: spend a little time to decide if it's worth working on.<br/>Weeks of coding prevents hours of planning.<br/>Weeks of coding prevents hours of estimation.">
             <Heading size={4} textColor="white" textAlign="left">
               High-leverage habits
             </Heading>
@@ -110,6 +110,13 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Product Validation</ListItem></Appear>
               <Appear><ListItem>Project Estimation</ListItem></Appear>
             </List>
+          </Slide>
+          <Slide notes="Reducing the cone of uncertainty is a high-leverage activity">
+            <Text textColor="secondary" textAlign="left">
+              A good estimate is an estimate that provides a clear enough view
+              of the project reality to allow the project leadership to make
+              good decisions about how to control the project to hit its targets.
+            </Text>
           </Slide>
           <Slide>
             <Heading size={4} textColor="white" textAlign="left">
